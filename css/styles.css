@@ -1,0 +1,38 @@
+.topnav{
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: #0000ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.topnav a:hover {
+    background-color: #00ffff;
+    color: black;
+}
+.topnav{
+    clear: both;
+}
+
+/* Hero image CSS  */
+
+Body, html {
+    height: 100%;
+}
+
+.hero {
+    margin: 10px;
+    background-image: url('..//img/Anime/Hero\ IMG.jpg');
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
