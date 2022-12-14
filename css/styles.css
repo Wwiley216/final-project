@@ -31,7 +31,7 @@ display: inline-block;
 
 }
 
- .float-left, .logo{
+.float-left, .logo{
     float: left;
 }  
 
@@ -40,8 +40,8 @@ display: inline-block;
 }
 
 .logo{
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     
     
 }
@@ -96,6 +96,17 @@ Body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+.hero-text2 {
+  text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
 }
 
 /* Contact page */
